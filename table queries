@@ -1,0 +1,8 @@
+CREATE TABLE tbl_users(
+  UID INT AUTO_INCREMENT ,
+  Name VARCHAR( 50 ) ,
+  Email VARCHAR( 30 ) ,
+  Passwd VARCHAR( 80 ) ,
+  RegDate DATE,
+  PRIMARY KEY ( UID )
+)
